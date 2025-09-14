@@ -1,0 +1,73 @@
+body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to bottom right, #fff0f5, #ffe4b5);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(90deg, #ff69b4, #ffcc00, #33ccff);
+      padding: 15px;
+      color: white;
+    }
+    header h1 {
+      font-size: 2.5em;
+      text-shadow: 2px 2px #ff1493;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav li {
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+    nav li:nth-child(1) { background-color: #ffcc00; }
+    nav li:nth-child(2) { background-color: #ff6f61; }
+    nav li:nth-child(3) { background-color: #66ff66; }
+    nav li:nth-child(4) { background-color: #66ccff; }
+
+    a:link {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: white
+    }
+
+    a:hover {
+      color: #663300;
+      text-decoration: none;
+    }
+
+    h2, h3 {
+      background: linear-gradient(45deg, #ff69b4, #ffcc00, #33ccff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 2em;
+      margin-top: 20px;
+    }
+    p {
+      color: #663300;
+      font-size: 1.1em;
+      padding: 0 15px;
+    }
+    footer {
+      background: linear-gradient(90deg, #ffcc00, #ff69b4, #33ccff);
+      padding: 15px;
+      color: white;
+      font-size: 0.9em;
+    }
+    img {
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      margin: 10px 0;
+    }
+  
